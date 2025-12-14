@@ -1,0 +1,67 @@
+# Core ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+wheels/
+
+# Environment related
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pyvenv.cfg
+
+# IDE specific
+.vscode/
+.idea/
+.ropeproject
+*.swp
+*.swo
+*.code-workspace
+*.sublime-*
+
+# Testing and quality
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+*.dump
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints
+*.ipynb_checkpoints/
+
+# Large files (consider Git LFS)
+*.npy
+*.npz
+*.h5
+*.pth
+*.pt
+*.bin
+*.out
+
+nohup.out
