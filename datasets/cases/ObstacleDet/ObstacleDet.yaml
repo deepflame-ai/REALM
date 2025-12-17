@@ -1,0 +1,49 @@
+description: ObstacleDet dataset
+grid_type: unstructured mesh
+spatial_resolution:
+- 310224
+n_trajectories: 6
+n_fields: 5
+n_timeSteps: 51
+fields:
+- field_name: H2
+  stats:
+    mean: 0.43031
+    std: 0.494784
+    rms: 0.655727
+- field_name: Ux
+  stats:
+    mean: 87.7527
+    std: 282.764
+    rms: 296.068
+- field_name: Uy
+  stats:
+    mean: -5.63973
+    std: 119.716
+    rms: 119.849
+- field_name: T
+  stats:
+    mean: 1699.6
+    std: 1240.77
+    rms: 2104.32
+- field_name: rho
+  stats:
+    mean: 1.135
+    std: 0.370405
+    rms: 1.19391
+trajectories:
+- group: train
+  n_trajectories: 4
+  trajectories:
+  - BR80Eps8
+  - BR78Eps6
+  - BR76Eps8
+  - BR78Eps8
+- group: val
+  n_trajectories: 1
+  trajectories:
+  - BR76Eps6
+- group: test
+  n_trajectories: 1
+  trajectories:
+  - BR80Eps6

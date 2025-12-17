@@ -1,0 +1,244 @@
+description: 2D EvolveJet dataset
+grid_type: uniform, cartesian coordinates
+spatial_resolution:
+- 256
+- 256
+n_trajectories: 30
+n_fields: 39
+n_timeSteps: 40
+fields:
+- field_name: AR
+  stats:
+    mean: 0.0
+    std: 0.0
+    rms: 0.0
+- field_name: C
+  stats:
+    mean: 2.71449e-08
+    std: 2.33954e-07
+    rms: 2.35523e-07
+- field_name: C2H
+  stats:
+    mean: 9.1411e-08
+    std: 4.29509e-07
+    rms: 4.39129e-07
+- field_name: C2H2
+  stats:
+    mean: 6.19397e-05
+    std: 0.000239163
+    rms: 0.000247054
+- field_name: C2H3
+  stats:
+    mean: 7.99818e-07
+    std: 3.92563e-06
+    rms: 4.00628e-06
+- field_name: C2H4
+  stats:
+    mean: 7.67443e-05
+    std: 0.000294666
+    rms: 0.000304496
+- field_name: C2H5
+  stats:
+    mean: 1.85418e-06
+    std: 7.38417e-06
+    rms: 7.61341e-06
+- field_name: C2H6
+  stats:
+    mean: 4.68985e-05
+    std: 0.000190204
+    rms: 0.0001959
+- field_name: C3H7
+  stats:
+    mean: 5.04427e-09
+    std: 2.75086e-08
+    rms: 2.79672e-08
+- field_name: C3H8
+  stats:
+    mean: 4.44524e-07
+    std: 2.11895e-06
+    rms: 2.16508e-06
+- field_name: CH
+  stats:
+    mean: 9.99868e-08
+    std: 5.08305e-07
+    rms: 5.18046e-07
+- field_name: CH2
+  stats:
+    mean: 1.87843e-06
+    std: 6.6598e-06
+    rms: 6.91964e-06
+- field_name: CH2CHO
+  stats:
+    mean: 8.06767e-08
+    std: 3.66963e-07
+    rms: 3.75727e-07
+- field_name: CH2CO
+  stats:
+    mean: 1.69237e-05
+    std: 6.87116e-05
+    rms: 7.07651e-05
+- field_name: CH2O
+  stats:
+    mean: 7.77477e-05
+    std: 0.000229154
+    rms: 0.000241984
+- field_name: CH2OH
+  stats:
+    mean: 3.1744e-07
+    std: 1.16954e-06
+    rms: 1.21186e-06
+- field_name: CH2S
+  stats:
+    mean: 1.70019e-07
+    std: 6.21145e-07
+    rms: 6.43993e-07
+- field_name: CH3
+  stats:
+    mean: 0.000127473
+    std: 0.000392921
+    rms: 0.000413081
+- field_name: CH3CHO
+  stats:
+    mean: 1.84277e-06
+    std: 7.43489e-06
+    rms: 7.65986e-06
+- field_name: CH3O
+  stats:
+    mean: 2.91165e-07
+    std: 1.13172e-06
+    rms: 1.16857e-06
+- field_name: CH3OH
+  stats:
+    mean: 3.39188e-06
+    std: 1.15084e-05
+    rms: 1.19978e-05
+- field_name: CH4
+  stats:
+    mean: 0.0054864
+    std: 0.0157612
+    rms: 0.0166888
+- field_name: CO
+  stats:
+    mean: 0.00348163
+    std: 0.00834083
+    rms: 0.00903832
+- field_name: CO2
+  stats:
+    mean: 0.129587
+    std: 0.043479
+    rms: 0.136686
+- field_name: H
+  stats:
+    mean: 1.11839e-05
+    std: 3.98914e-05
+    rms: 4.14295e-05
+- field_name: H2
+  stats:
+    mean: 0.000168456
+    std: 0.000369642
+    rms: 0.000406218
+- field_name: H2O
+  stats:
+    mean: 0.10859
+    std: 0.0330645
+    rms: 0.113513
+- field_name: H2O2
+  stats:
+    mean: 2.45987e-07
+    std: 8.22614e-07
+    rms: 8.58606e-07
+- field_name: HCCO
+  stats:
+    mean: 2.295e-06
+    std: 9.85109e-06
+    rms: 1.01149e-05
+- field_name: HCCOH
+  stats:
+    mean: 1.38255e-06
+    std: 4.66897e-06
+    rms: 4.86937e-06
+- field_name: HCO
+  stats:
+    mean: 1.39137e-06
+    std: 5.72795e-06
+    rms: 5.89452e-06
+- field_name: HO2
+  stats:
+    mean: 6.61175e-06
+    std: 2.42571e-05
+    rms: 2.51421e-05
+- field_name: O
+  stats:
+    mean: 0.000116452
+    std: 0.000433462
+    rms: 0.000448832
+- field_name: O2
+  stats:
+    mean: 0.0264737
+    std: 0.0600009
+    rms: 0.0655818
+- field_name: OH
+  stats:
+    mean: 0.000850769
+    std: 0.00116395
+    rms: 0.00144173
+- field_name: T
+  stats:
+    mean: 2297.75
+    std: 432.728
+    rms: 2338.14
+- field_name: rho
+  stats:
+    mean: 0.157855
+    std: 0.0568522
+    rms: 0.167781
+- field_name: Ux
+  stats:
+    mean: -47.8355
+    std: 28.7267
+    rms: 55.7984
+- field_name: Uy
+  stats:
+    mean: 0.366169
+    std: 10.3133
+    rms: 10.3198
+trajectories:
+- group: train
+  n_trajectories: 24
+  trajectories:
+  - phi=0.5/Re=1156-2
+  - phi=1.5/Re=722
+  - phi=1.0/Re=1734
+  - phi=1.0/Re=1012
+  - phi=1.5/Re=2312-2
+  - phi=1.5/Re=1734-2
+  - phi=1.5/Re=578
+  - phi=1.0/Re=1156
+  - phi=1.0/Re=578
+  - phi=1.5/Re=1156-2
+  - phi=0.5/Re=2312
+  - phi=1.0/Re=2312-2
+  - phi=0.5/Re=722
+  - phi=1.0/Re=1734-2
+  - phi=1.5/Re=1734
+  - phi=1.5/Re=1012
+  - phi=0.5/Re=1156
+  - phi=1.5/Re=867
+  - phi=0.5/Re=2312-2
+  - phi=0.5/Re=1734-2
+  - phi=1.0/Re=722
+  - phi=1.0/Re=867
+  - phi=0.5/Re=867
+  - phi=0.5/Re=578
+- group: val
+  n_trajectories: 3
+  trajectories:
+  - phi=1.5/Re=2312
+  - phi=0.5/Re=1734
+  - phi=0.5/Re=1012
+- group: test
+  n_trajectories: 3
+  trajectories:
+  - phi=1.5/Re=1156
+  - phi=1.0/Re=2312
+  - phi=1.0/Re=1156-2

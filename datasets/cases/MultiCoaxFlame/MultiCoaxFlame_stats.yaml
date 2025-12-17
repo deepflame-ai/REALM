@@ -1,0 +1,133 @@
+description: MultiCoaxFlame dataset
+grid_type: unstructured mesh
+spatial_resolution:
+- 13478444
+n_trajectories: 5
+n_fields: 22
+n_timeSteps: 31
+fields:
+- field_name: C2H6
+  stats:
+    mean: 0.00111121
+    std: 0.00572824
+    rms: 0.00583502
+- field_name: CH2O
+  stats:
+    mean: 6.92941e-05
+    std: 0.000350321
+    rms: 0.000357109
+- field_name: CH3
+  stats:
+    mean: 0.000284828
+    std: 0.0014771
+    rms: 0.00150431
+- field_name: CH3O
+  stats:
+    mean: 6.89497e-08
+    std: 2.63141e-06
+    rms: 2.63231e-06
+- field_name: CH3O2
+  stats:
+    mean: 2.20225e-06
+    std: 1.53375e-05
+    rms: 1.54948e-05
+- field_name: CH4
+  stats:
+    mean: 0.0986033
+    std: 0.243922
+    rms: 0.263098
+- field_name: CO
+  stats:
+    mean: 0.0753687
+    std: 0.133412
+    rms: 0.153229
+- field_name: CO2
+  stats:
+    mean: 0.0774117
+    std: 0.0896886
+    rms: 0.118476
+- field_name: H
+  stats:
+    mean: 0.00016115
+    std: 0.000400606
+    rms: 0.000431804
+- field_name: H2
+  stats:
+    mean: 0.00540561
+    std: 0.0110408
+    rms: 0.0122931
+- field_name: H2O
+  stats:
+    mean: 0.105684
+    std: 0.121429
+    rms: 0.160978
+- field_name: H2O2
+  stats:
+    mean: 8.55821e-06
+    std: 5.59927e-05
+    rms: 5.6643e-05
+- field_name: HCO
+  stats:
+    mean: 9.16871e-07
+    std: 3.20091e-06
+    rms: 3.32963e-06
+- field_name: HO2
+  stats:
+    mean: 4.68925e-05
+    std: 9.42437e-05
+    rms: 0.000105265
+- field_name: O
+  stats:
+    mean: 0.0025128
+    std: 0.0055922
+    rms: 0.00613081
+- field_name: O2
+  stats:
+    mean: 0.300059
+    std: 0.379195
+    rms: 0.483553
+- field_name: OH
+  stats:
+    mean: 0.00984553
+    std: 0.02014
+    rms: 0.0224177
+- field_name: Ux
+  stats:
+    mean: 182.909
+    std: 281.43
+    rms: 335.647
+- field_name: Uy
+  stats:
+    mean: 0.00787532
+    std: 41.5448
+    rms: 41.5448
+- field_name: Uz
+  stats:
+    mean: -0.0718508
+    std: 41.1961
+    rms: 41.1962
+- field_name: T
+  stats:
+    mean: 1387.19
+    std: 1121.76
+    rms: 1783.99
+- field_name: rho
+  stats:
+    mean: 6.78325
+    std: 6.27894
+    rms: 9.24325
+trajectories:
+- group: train
+  n_trajectories: 3
+  trajectories:
+  - of34l75
+  - of34l100
+  - of34l50
+- group: val
+  n_trajectories: 1
+  trajectories:
+  - ofn34l50
+- group: test
+  n_trajectories: 1
+  trajectories:
+  - ofn34l75

@@ -1,0 +1,91 @@
+description: ReactTGV dataset
+grid_type: uniform, cartesian coordinates
+spatial_resolution:
+- 128
+- 128
+- 128
+n_trajectories: 16
+n_fields: 11
+n_timeSteps: 41
+fields:
+- field_name: H
+  stats:
+    mean: 0.000201501
+    std: 0.000337598
+    rms: 0.00039316
+- field_name: H2
+  stats:
+    mean: 0.0191467
+    std: 0.0217916
+    rms: 0.0290081
+- field_name: H2O
+  stats:
+    mean: 0.0307223
+    std: 0.0446677
+    rms: 0.0542132
+- field_name: O
+  stats:
+    mean: 0.000347643
+    std: 0.000933539
+    rms: 0.000996168
+- field_name: O2
+  stats:
+    mean: 0.109952
+    std: 0.100692
+    rms: 0.149091
+- field_name: OH
+  stats:
+    mean: 0.000262862
+    std: 0.000771911
+    rms: 0.000815441
+- field_name: T
+  stats:
+    mean: 582.734
+    std: 355.566
+    rms: 682.646
+- field_name: p
+  stats:
+    mean: 121714.0
+    std: 15668.0
+    rms: 122718.0
+- field_name: Ux
+  stats:
+    mean: -9.58242e-06
+    std: 5.07076
+    rms: 5.07076
+- field_name: Uy
+  stats:
+    mean: -1.00795e-07
+    std: 5.23024
+    rms: 5.23024
+- field_name: Uz
+  stats:
+    mean: -1.2351e-05
+    std: 3.10121
+    rms: 3.10121
+trajectories:
+- group: train
+  n_trajectories: 12
+  trajectories:
+  - U_16/1_5_256
+  - U_32/2_256
+  - U_4/1_256
+  - U_4/1_5_256
+  - U_8/1_5_256
+  - U_32/1_256
+  - U_16/2_256
+  - U_8/2_256
+  - U_4/2_256
+  - U_32/2_5_256
+  - U_8/2_5_256
+  - U_4/2_5_256
+- group: val
+  n_trajectories: 2
+  trajectories:
+  - U_16/2_5_256
+  - U_16/1_256
+- group: test
+  n_trajectories: 2
+  trajectories:
+  - U_32/1_5_256
+  - U_8/1_256

@@ -1,0 +1,93 @@
+description: 2D PlanarDet dataset
+grid_type: uniform, cartesian coordinates
+spatial_resolution:
+- 832
+- 384
+n_trajectories: 9
+n_fields: 13
+n_timeSteps: 50
+fields:
+- field_name: H
+  stats:
+    mean: 7.58329e-05
+    std: 0.000160888
+    rms: 0.000177864
+- field_name: H2
+  stats:
+    mean: 0.0088587
+    std: 0.00809145
+    rms: 0.0119978
+- field_name: H2O
+  stats:
+    mean: 0.0738749
+    std: 0.0685277
+    rms: 0.100765
+- field_name: H2O2
+  stats:
+    mean: 2.91438e-06
+    std: 1.33987e-05
+    rms: 1.3712e-05
+- field_name: HO2
+  stats:
+    mean: 1.15296e-05
+    std: 3.94144e-05
+    rms: 4.10661e-05
+- field_name: O
+  stats:
+    mean: 0.000343793
+    std: 0.000726062
+    rms: 0.000803342
+- field_name: O2
+  stats:
+    mean: 0.069557
+    std: 0.0631814
+    rms: 0.0939684
+- field_name: OH
+  stats:
+    mean: 0.00228156
+    std: 0.00256226
+    rms: 0.00343084
+- field_name: T
+  stats:
+    mean: 1423.55
+    std: 1022.76
+    rms: 1752.86
+- field_name: rho
+  stats:
+    mean: 1.44376
+    std: 0.553734
+    rms: 1.54631
+- field_name: Ux
+  stats:
+    mean: 473.904
+    std: 439.282
+    rms: 646.184
+- field_name: Uy
+  stats:
+    mean: 3.79988e-08
+    std: 68.8876
+    rms: 68.8876
+- field_name: pMax
+  stats:
+    mean: 1530580.0
+    std: 1419430.0
+    rms: 2087450.0
+trajectories:
+- group: train
+  n_trajectories: 7
+  trajectories:
+  - sampling/phi8e-1-300
+  - sampling/phi1-330
+  - sampling/phi1-300
+  - sampling/phi12e-1-300
+  - sampling/phi8e-1-330
+  - sampling/phi8e-1-290
+  - sampling/phi12e-1-290
+- group: val
+  n_trajectories: 1
+  trajectories:
+  - sampling/phi1-290
+- group: test
+  n_trajectories: 1
+  trajectories:
+  - sampling/phi12e-1-330

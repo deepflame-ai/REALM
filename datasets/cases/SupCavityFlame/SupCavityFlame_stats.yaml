@@ -1,0 +1,87 @@
+description: 2D SupCavityFlame dataset
+grid_type: unstructured mesh
+spatial_resolution:
+- 298848
+n_trajectories: 9
+n_fields: 12
+n_timeSteps: 21
+fields:
+- field_name: H
+  stats:
+    mean: 0.000395763
+    std: 0.00108099
+    rms: 0.00115116
+- field_name: H2
+  stats:
+    mean: 0.0314389
+    std: 0.142068
+    rms: 0.145505
+- field_name: H2O
+  stats:
+    mean: 0.0290719
+    std: 0.0660928
+    rms: 0.0722041
+- field_name: H2O2
+  stats:
+    mean: 6.76329e-07
+    std: 2.96071e-06
+    rms: 3.03698e-06
+- field_name: HO2
+  stats:
+    mean: 3.24491e-06
+    std: 1.77412e-05
+    rms: 1.80355e-05
+- field_name: O
+  stats:
+    mean: 0.00119314
+    std: 0.00318648
+    rms: 0.00340253
+- field_name: O2
+  stats:
+    mean: 0.19612
+    std: 0.0772082
+    rms: 0.210771
+- field_name: OH
+  stats:
+    mean: 0.00178792
+    std: 0.00492338
+    rms: 0.00523797
+- field_name: Ux
+  stats:
+    mean: 975.944
+    std: 517.609
+    rms: 1104.71
+- field_name: Uy
+  stats:
+    mean: 12.7868
+    std: 83.9324
+    rms: 84.9009
+- field_name: T
+  stats:
+    mean: 1302.32
+    std: 368.802
+    rms: 1353.53
+- field_name: rho
+  stats:
+    mean: 0.184805
+    std: 0.0589891
+    rms: 0.193991
+trajectories:
+- group: train
+  n_trajectories: 7
+  trajectories:
+  - new-cavity-up2
+  - new-cavity-back3
+  - new-cavity-back2
+  - new-cavity-front2
+  - new-cavity-up3
+  - new-cavity-up1
+  - new-cavity-front1
+- group: val
+  n_trajectories: 1
+  trajectories:
+  - new-cavity-back1
+- group: test
+  n_trajectories: 1
+  trajectories:
+  - new-cavity-front3

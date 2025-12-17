@@ -1,0 +1,115 @@
+description: 2D IgnitHIT dataset
+grid_type: uniform, cartesian coordinates
+spatial_resolution:
+- 128
+- 128
+n_trajectories: 36
+n_fields: 12
+n_timeSteps: 30
+fields:
+- field_name: H
+  stats:
+    mean: 0.000156082
+    std: 0.000359408
+    rms: 0.000391837
+- field_name: H2
+  stats:
+    mean: 0.0214084
+    std: 0.0114197
+    rms: 0.0242638
+- field_name: H2O
+  stats:
+    mean: 0.0605426
+    std: 0.0975972
+    rms: 0.11485
+- field_name: H2O2
+  stats:
+    mean: 1.04916e-06
+    std: 2.95012e-06
+    rms: 3.13113e-06
+- field_name: HO2
+  stats:
+    mean: 1.10161e-05
+    std: 5.79216e-05
+    rms: 5.89599e-05
+- field_name: O
+  stats:
+    mean: 0.000716023
+    std: 0.0015013
+    rms: 0.00166331
+- field_name: O2
+  stats:
+    mean: 0.168675
+    std: 0.092895
+    rms: 0.192564
+- field_name: OH
+  stats:
+    mean: 0.00336856
+    std: 0.00555402
+    rms: 0.00649572
+- field_name: T
+  stats:
+    mean: 1090.7
+    std: 794.902
+    rms: 1349.63
+- field_name: rho
+  stats:
+    mean: 0.683147
+    std: 0.266849
+    rms: 0.733415
+- field_name: Ux
+  stats:
+    mean: 0.29581
+    std: 31.0845
+    rms: 31.086
+- field_name: Uy
+  stats:
+    mean: -1.05182
+    std: 32.9888
+    rms: 33.0055
+trajectories:
+- group: train
+  n_trajectories: 26
+  trajectories:
+  - phi=s/15_4_s
+  - phi=c/5_1_c
+  - phi=c/15_1_c
+  - phi=s/15_3_s
+  - phi=c/5_3_c
+  - phi=c/10_4_c
+  - phi=_t/5_3_t
+  - phi=_t/10_3_t
+  - phi=_t/5_4_t
+  - phi=s/15_2_s
+  - phi=s/10_4_s
+  - phi=s/5_4_s
+  - phi=s/5_2_s
+  - phi=s/15_1_s
+  - phi=s/5_1_s
+  - phi=_t/5_1_t
+  - phi=c/10_2_c
+  - phi=_t/15_2_t
+  - phi=c/15_2_c
+  - phi=c/10_3_c
+  - phi=_t/15_4_t
+  - phi=s/10_3_s
+  - phi=_t/10_2_t
+  - phi=c/10_1_c
+  - phi=s/10_2_s
+  - phi=s/10_1_s
+- group: val
+  n_trajectories: 5
+  trajectories:
+  - phi=_t/15_3_t
+  - phi=c/5_4_c
+  - phi=_t/15_1_t
+  - phi=c/15_3_c
+  - phi=c/5_2_c
+- group: test
+  n_trajectories: 5
+  trajectories:
+  - phi=c/15_4_c
+  - phi=_t/5_2_t
+  - phi=s/5_3_s
+  - phi=_t/10_4_t
+  - phi=_t/10_1_t

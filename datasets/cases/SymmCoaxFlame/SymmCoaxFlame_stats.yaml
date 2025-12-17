@@ -1,0 +1,135 @@
+description: SymmCoaxFlame dataset
+grid_type: unstructured mesh
+spatial_resolution:
+- 294900
+n_trajectories: 12
+n_fields: 21
+n_timeSteps: 36
+fields:
+- field_name: C2H6
+  stats:
+    mean: 0.00307702
+    std: 0.010348
+    rms: 0.0107958
+- field_name: CH2O
+  stats:
+    mean: 6.01806e-05
+    std: 0.000270662
+    rms: 0.000277272
+- field_name: CH3
+  stats:
+    mean: 0.000653382
+    std: 0.00232655
+    rms: 0.00241656
+- field_name: CH3O
+  stats:
+    mean: 3.55419e-08
+    std: 8.95822e-07
+    rms: 8.96527e-07
+- field_name: CH3O2
+  stats:
+    mean: 1.7406e-06
+    std: 1.95161e-05
+    rms: 1.95935e-05
+- field_name: CH4
+  stats:
+    mean: 0.0892967
+    std: 0.203177
+    rms: 0.221934
+- field_name: CO
+  stats:
+    mean: 0.134256
+    std: 0.175882
+    rms: 0.221267
+- field_name: CO2
+  stats:
+    mean: 0.0794439
+    std: 0.0909022
+    rms: 0.120725
+- field_name: H
+  stats:
+    mean: 0.000310292
+    std: 0.000619221
+    rms: 0.000692616
+- field_name: H2
+  stats:
+    mean: 0.0114106
+    std: 0.0176813
+    rms: 0.0210436
+- field_name: H2O
+  stats:
+    mean: 0.127775
+    std: 0.130729
+    rms: 0.182802
+- field_name: H2O2
+  stats:
+    mean: 9.60854e-06
+    std: 4.90333e-05
+    rms: 4.99658e-05
+- field_name: HCO
+  stats:
+    mean: 2.83436e-06
+    std: 6.76442e-06
+    rms: 7.33423e-06
+- field_name: HO2
+  stats:
+    mean: 7.56082e-05
+    std: 0.000145431
+    rms: 0.000163911
+- field_name: O
+  stats:
+    mean: 0.00356319
+    std: 0.00718518
+    rms: 0.00802017
+- field_name: O2
+  stats:
+    mean: 0.247467
+    std: 0.367217
+    rms: 0.442818
+- field_name: OH
+  stats:
+    mean: 0.0141072
+    std: 0.0255749
+    rms: 0.0292076
+- field_name: Ux
+  stats:
+    mean: 165.666
+    std: 180.736
+    rms: 245.175
+- field_name: Uy
+  stats:
+    mean: 2.63777
+    std: 36.7948
+    rms: 36.8893
+- field_name: T
+  stats:
+    mean: 1716.03
+    std: 1209.91
+    rms: 2099.68
+- field_name: rho
+  stats:
+    mean: 8.4181
+    std: 9.51372
+    rms: 12.7034
+trajectories:
+- group: train
+  n_trajectories: 8
+  trajectories:
+  - T=1/OF=3.0
+  - T=2/OF=3.5
+  - T=1/OF=2.0
+  - T=2/OF=3.0
+  - T=0/OF=3.0
+  - T=2/OF=2.0
+  - T=0/OF=2.5
+  - T=1/OF=3.5
+- group: val
+  n_trajectories: 2
+  trajectories:
+  - T=2/OF=2.5
+  - T=0/OF=3.5
+- group: test
+  n_trajectories: 2
+  trajectories:
+  - T=0/OF=2.0
+  - T=1/OF=2.5

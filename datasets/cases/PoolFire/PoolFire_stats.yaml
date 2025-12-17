@@ -1,0 +1,80 @@
+description: 3D PoolFire dataset
+grid_type: uniform, cartesian coordinates
+spatial_resolution:
+- 80
+- 80
+- 200
+n_trajectories: 15
+n_fields: 9
+n_timeSteps: 21
+fields:
+- field_name: CH4
+  stats:
+    mean: 9.88102e-05
+    std: 0.00376898
+    rms: 0.00377027
+- field_name: CO2
+  stats:
+    mean: 0.00092928
+    std: 0.00441111
+    rms: 0.00450793
+- field_name: H2O
+  stats:
+    mean: 0.000760794
+    std: 0.00361134
+    rms: 0.00369061
+- field_name: O2
+  stats:
+    mean: 0.231557
+    std: 0.00715229
+    rms: 0.231667
+- field_name: T
+  stats:
+    mean: 310.066
+    std: 49.4217
+    rms: 313.98
+- field_name: rho
+  stats:
+    mean: 1.14771
+    std: 0.0834537
+    rms: 1.15074
+- field_name: Ux
+  stats:
+    mean: -0.000501547
+    std: 0.145606
+    rms: 0.145607
+- field_name: Uy
+  stats:
+    mean: -0.00107387
+    std: 0.146278
+    rms: 0.146282
+- field_name: Uz
+  stats:
+    mean: 0.297452
+    std: 0.589166
+    rms: 0.659996
+trajectories:
+- group: train
+  n_trajectories: 11
+  trajectories:
+  - p=14kw/size=03
+  - p=33kw/size=01
+  - p=33kw/size=05
+  - p=45kw/size=01
+  - p=58kw/size=05
+  - p=22kw/size=03
+  - p=14kw/size=05
+  - p=58kw/size=03
+  - p=45kw/size=03
+  - p=33kw/size=03
+  - p=45kw/size=05
+- group: val
+  n_trajectories: 2
+  trajectories:
+  - p=22kw/size=01
+  - p=14kw/size=01
+- group: test
+  n_trajectories: 2
+  trajectories:
+  - p=22kw/size=05
+  - p=58kw/size=01

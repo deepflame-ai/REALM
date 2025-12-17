@@ -1,0 +1,92 @@
+description: PropHIT dataset
+grid_type: structured 3D mesh
+spatial_resolution:
+- 64
+- 64
+- 512
+n_trajectories: 7
+n_fields: 13
+n_timeSteps: 35
+fields:
+- field_name: H
+  stats:
+    mean: 9.18598e-06
+    std: 3.67899e-05
+    rms: 3.79194e-05
+- field_name: H2
+  stats:
+    mean: 0.0126981
+    std: 0.00741045
+    rms: 0.0147023
+- field_name: H2O
+  stats:
+    mean: 0.0401267
+    std: 0.0660687
+    rms: 0.0772996
+- field_name: H2O2
+  stats:
+    mean: 3.31198e-06
+    std: 1.11846e-05
+    rms: 1.16647e-05
+- field_name: HO2
+  stats:
+    mean: 1.1131e-05
+    std: 5.38214e-05
+    rms: 5.49603e-05
+- field_name: O
+  stats:
+    mean: 0.000174285
+    std: 0.000491058
+    rms: 0.000521069
+- field_name: O2
+  stats:
+    mean: 0.192527
+    std: 0.0601105
+    rms: 0.201692
+- field_name: OH
+  stats:
+    mean: 0.000706559
+    std: 0.00136999
+    rms: 0.00154146
+- field_name: Ux
+  stats:
+    mean: 3.38955
+    std: 6.99104
+    rms: 7.76941
+- field_name: Uy
+  stats:
+    mean: 0.00592765
+    std: 8.81692
+    rms: 8.81692
+- field_name: Uz
+  stats:
+    mean: -0.00240352
+    std: 6.11088
+    rms: 6.11088
+- field_name: T
+  stats:
+    mean: 696.487
+    std: 647.424
+    rms: 950.921
+- field_name: rho
+  stats:
+    mean: 1.89101
+    std: 1.30808
+    rms: 2.29934
+trajectories:
+- group: train
+  n_trajectories: 5
+  trajectories:
+  - 5atm_u5
+  - 2atm_u20
+  - 2atm_u2
+  - 2atm_u5
+  - 2atm_u10
+- group: val
+  n_trajectories: 1
+  trajectories:
+  - 5atm_u20
+- group: test
+  n_trajectories: 1
+  trajectories:
+  - 5atm_u10

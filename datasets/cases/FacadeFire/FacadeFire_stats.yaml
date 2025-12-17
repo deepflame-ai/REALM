@@ -1,0 +1,72 @@
+description: FacadeFire dataset
+grid_type: unstructured mesh
+spatial_resolution:
+- 252443
+n_trajectories: 9
+n_fields: 9
+n_timeSteps: 21
+fields:
+- field_name: C3H8
+  stats:
+    mean: 0.015156
+    std: 0.0645985
+    rms: 0.0663526
+- field_name: CO2
+  stats:
+    mean: 0.0565704
+    std: 0.0685238
+    rms: 0.0888578
+- field_name: H2O
+  stats:
+    mean: 0.0308758
+    std: 0.0373999
+    rms: 0.0484981
+- field_name: O2
+  stats:
+    mean: 0.156529
+    std: 0.0930647
+    rms: 0.182105
+- field_name: Ux
+  stats:
+    mean: 0.235755
+    std: 1.08507
+    rms: 1.11039
+- field_name: Uy
+  stats:
+    mean: 0.0039768
+    std: 0.78055
+    rms: 0.78056
+- field_name: Uz
+  stats:
+    mean: 0.891759
+    std: 1.72863
+    rms: 1.94509
+- field_name: T
+  stats:
+    mean: 778.343
+    std: 524.076
+    rms: 938.336
+- field_name: rho
+  stats:
+    mean: 0.707471
+    std: 0.406616
+    rms: 0.815997
+trajectories:
+- group: train
+  n_trajectories: 7
+  trajectories:
+  - 800kw
+  - 1200kw
+  - 1100kw
+  - 500kw
+  - 900kw
+  - 700kw
+  - 400kw
+- group: val
+  n_trajectories: 1
+  trajectories:
+  - 1000kw
+- group: test
+  n_trajectories: 1
+  trajectories:
+  - 600kw
