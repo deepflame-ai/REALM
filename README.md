@@ -14,7 +14,7 @@ Runze Mao<sup>1,†</sup>, Rui Zhang<sup>2,†</sup>, Xuan Bai<sup>3</sup>, Tian
 
 ## 🔥 Overview
 
-<div align="center">   <img src="images/fig1.png" width="100%"> </div>
+<div align="center">   <img src="./images/fig1.png" width="100%"> </div>
 
 **REALM** (**RE**alistic **A**I **L**earning for **M**ultiphysics) addresses a critical gap in scientific machine learning: while neural surrogates show promise for accelerating multiphysics simulations, current evaluations rely heavily on simplified benchmarks that fail to expose model limitations in realistic regimes.
 
@@ -32,7 +32,7 @@ Runze Mao<sup>1,†</sup>, Rui Zhang<sup>2,†</sup>, Xuan Bai<sup>3</sup>, Tian
 
 ## 📊 Dataset Overview
 
-<div align="center">   <img src="images/fig2.png" width="100%"> </div>
+<div align="center">   <img src="./images/fig2.png" width="100%"> </div>
 
 ### Four Major Categories
 
@@ -74,7 +74,7 @@ Runze Mao<sup>1,†</sup>, Rui Zhang<sup>2,†</sup>, Xuan Bai<sup>3</sup>, Tian
 
 ## 📈 Key Results
 
-<div align="center">   <img src="images/fig6.png" width="100%"> </div>
+<div align="center">   <img src="./images/fig6.png" width="100%"> </div>
 
 ### Performance Trends
 
@@ -98,7 +98,7 @@ Runze Mao<sup>1,†</sup>, Rui Zhang<sup>2,†</sup>, Xuan Bai<sup>3</sup>, Tian
 
 ### Representative Visualizations
 
-<div align="center">   <img src="images/fig3.png" width="100%">   <p><i>2D Regular Cases: Error evolution and visual comparisons</i></p> </div> <div align="center">   <img src="images/fig4.png" width="100%">   <p><i>3D Regular Cases: Vorticity and temperature isosurfaces</i></p> </div> <div align="center">   <img src="images/fig5.png" width="100%">   <p><i>Irregular Cases: Temperature field predictions</i></p> </div>
+<div align="center">   <img src="./images/fig3.png" width="100%">   <p><i>2D Regular Cases: Error evolution and visual comparisons</i></p> </div> <div align="center">   <img src="./images/fig4.png" width="100%">   <p><i>3D Regular Cases: Vorticity and temperature isosurfaces</i></p> </div> <div align="center">   <img src="./images/fig5.png" width="100%">   <p><i>Irregular Cases: Temperature field predictions</i></p> </div>
 
 ------
 
