@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2506.10862-b31b1b.svg)](https://arxiv.org/abs/2506.10862) [![Website](https://img.shields.io/badge/Website-realm--bench.org-blue)](https://realm-bench.org/) [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://claude.ai/chat/LICENSE)
 
-**A rigorous benchmarking framework for neural surrogates on challenging, application-driven reactive multiphysics flows**
+**Benchmarking neural surrogates on realistic spatiotemporal multiphysics flows**
 
 Runze Mao<sup>1,†</sup>, Rui Zhang<sup>2,†</sup>, Xuan Bai<sup>3</sup>, Tianhao Wu<sup>3</sup>, Teng Zhang<sup>3</sup>, Zhenyi Chen<sup>1</sup>, Minqi Lin<sup>1</sup>, Bocheng Zeng<sup>2</sup>, Yangchen Xu<sup>1</sup>, Yingxuan Xiang<sup>1</sup>, Haoze Zhang<sup>1</sup>, Shubham Goswami<sup>4</sup>, Pierre A. Dawe<sup>4</sup>, Yifan Xu<sup>1</sup>, Zhenhua An<sup>5</sup>, Mengtao Yan<sup>2</sup>, Xiaoyi Lu<sup>6</sup>, Yi Wang<sup>6</sup>, Rongbo Bai<sup>7</sup>, Haobu Gao<sup>8</sup>, Xiaohang Fang<sup>4</sup>, Han Li<sup>1,3</sup>, Hao Sun<sup>2,</sup>, Zhi X. Chen<sup>1,3,</sup>
 
