@@ -168,26 +168,6 @@ python scripts/evaluate.py \
 
 ------
 
-## 📁 Repository Structure
-
-```
-REALM/
-├── data/                  # Dataset loaders and preprocessing
-├── models/               # Neural surrogate implementations
-│   ├── spectral/        # FNO, FFNO, CROP, DPOT, UNO, LSM
-│   ├── convolutional/   # CNext
-│   ├── transformer/     # FactFormer, Transolver, ONO, GNOT
-│   ├── pointwise/       # DeepONet, PointNet
-│   └── graph/           # MGN, GraphUNet, GraphSAGE
-├── training/            # Training utilities and protocols
-├── evaluation/          # Evaluation metrics and visualization
-├── scripts/             # Data download and experiment scripts
-├── configs/             # Configuration files for all cases
-└── notebooks/           # Tutorial notebooks
-```
-
-------
-
 ## 📊 Leaderboard
 
 Visit our [live leaderboard](https://realm-bench.org/leaderboard) to view up-to-date model rankings across all cases.
