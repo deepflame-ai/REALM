@@ -303,8 +303,8 @@ We welcome contributions! Please see our [contribution guidelines](https://claud
 
 ## 📧 Contact
 
-- **Hao Sun**: haosun@ruc.edu.cn
 - **Zhi X. Chen**: chenzhi@pku.edu.cn
+- **Hao Sun**: haosun@ruc.edu.cn
 - **Project Website**: [realm-bench.org](https://realm-bench.org/)
 - **GitHub Issues**: [github.com/deepflame-ai/REALM/issues](https://github.com/deepflame-ai/REALM/issues)
 
