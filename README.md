@@ -4,9 +4,9 @@
 
 **Benchmarking neural surrogates on realistic spatiotemporal multiphysics flows**
 
-Runze Mao<sup>1,†</sup>, Rui Zhang<sup>2,†</sup>, Xuan Bai<sup>3</sup>, Tianhao Wu<sup>3</sup>, Teng Zhang<sup>3</sup>, Zhenyi Chen<sup>1</sup>, Minqi Lin<sup>1</sup>, Bocheng Zeng<sup>2</sup>, Yangchen Xu<sup>1</sup>, Yingxuan Xiang<sup>1</sup>, Haoze Zhang<sup>1</sup>, Shubham Goswami<sup>4</sup>, Pierre A. Dawe<sup>4</sup>, Yifan Xu<sup>1</sup>, Zhenhua An<sup>5</sup>, Mengtao Yan<sup>2</sup>, Xiaoyi Lu<sup>6</sup>, Yi Wang<sup>6</sup>, Rongbo Bai<sup>7</sup>, Haobu Gao<sup>8</sup>, Xiaohang Fang<sup>4</sup>, Han Li<sup>1,3</sup>, Hao Sun<sup>2,</sup>, Zhi X. Chen<sup>1,3,</sup>
+Runze Mao<sup>1,†</sup>, Rui Zhang<sup>2,†</sup>, Xuan Bai<sup>3</sup>, Tianhao Wu<sup>3</sup>, Teng Zhang<sup>3</sup>, Zhenyi Chen<sup>1</sup>, Minqi Lin<sup>1</sup>, Bocheng Zeng<sup>2</sup>, Yangchen Xu<sup>1</sup>, Yingxuan Xiang<sup>1</sup>, Haoze Zhang<sup>1</sup>, Shubham Goswami<sup>4</sup>, Pierre A. Dawe<sup>4</sup>, Yifan Xu<sup>1</sup>, Zhenhua An<sup>5</sup>, Mengtao Yan<sup>2</sup>, Xiaoyi Lu<sup>6</sup>, Yi Wang<sup>6</sup>, Rongbo Bai<sup>7</sup>, Haobu Gao<sup>8</sup>, Xiaohang Fang<sup>4</sup>, Han Li<sup>1,3</sup>, Hao Sun<sup>2,\*</sup>, Zhi X. Chen<sup>1,3,\*</sup>
 
-<sup>1</sup>Peking University, <sup>2</sup>Renmin University of China, <sup>3</sup>AI for Science Institute, <sup>4</sup>University of Calgary, <sup>5</sup>Kyoto University, <sup>6</sup>FM Global, <sup>7</sup>LandSpace Technology, <sup>8</sup>Aero Engine Academy of China
+<sup>1</sup>Peking University, <sup>2</sup>Renmin University of China, <sup>3</sup>AI for Science Institute, Beijing, <sup>4</sup>University of Calgary, <sup>5</sup>Kyoto University, <sup>6</sup>FM Global, <sup>7</sup>LandSpace Technology, <sup>8</sup>Aero Engine Academy of China
 
 <sup>†</sup>Equal contribution, <sup>*</sup>Corresponding authors
 
