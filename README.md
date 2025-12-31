@@ -1,6 +1,6 @@
 # REALM: Realistic AI Learning for Multiphysics
 
-[![arXiv](https://img.shields.io/badge/arXiv-2506.10862-b31b1b.svg)](https://arxiv.org/abs/2506.10862) [![Website](https://img.shields.io/badge/Website-realm--bench.org-blue)](https://realm-bench.org/) [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://claude.ai/chat/LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-2512.18595-b31b1b.svg)](https://arxiv.org/abs/2512.18595) [![Website](https://img.shields.io/badge/Website-realm--bench.org-blue)](https://realm-bench.org/) [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://claude.ai/chat/LICENSE)
 
 **Benchmarking neural surrogates on realistic spatiotemporal multiphysics flows**
 
