@@ -104,67 +104,117 @@ Runze Mao<sup>1,†</sup>, Rui Zhang<sup>2,†</sup>, Xuan Bai<sup>3</sup>, Tian
 
 ## 🚀 Getting Started
 
-### Installation
+This demo shows how to download the REALM-Bench dataset and run training/evaluation on a sample 2D dataset.
+
+### 1. Installation
 
 ```bash
+# Clone the repository
 git clone https://github.com/deepflame-ai/REALM.git
 cd REALM
-pip install -r requirements.txt
+
+# Install dependencies
+pip install -r requirements.txt  
 ```
 
-### Data Access
+### 2. Download Dataset
 
-Download datasets from our [website](https://realm-bench.org/) or directly:
+Download the dataset from Hugging Face:
 
 ```bash
-# Download specific case
-python scripts/download_data.py --case IgnitHIT
+# Install huggingface-hub if not already installed
+pip install huggingface-hub
 
-# Download all datasets
-python scripts/download_data.py --all
+# Download the dataset
+from huggingface_hub import snapshot_download
+
+snapshot_download(
+    repo_id="TianhaoWu/realm-bench-IgnitHIT",
+    repo_type="dataset",
+    local_dir="./data"
+)
 ```
 
-### Quick Start
+Or download manually from: https://huggingface.co/datasets/TianhaoWu/realm-bench-IgnitHIT
+
+### 3. Run Training
+
+Navigate to the tutorial folder and configure your training setup:
+
+```bash
+cd tutorial
+```
+
+#### Option A: Single-GPU Training (2D Regular Grid)
+
+```bash
+python multi_gpu_launcher.py
+```
+
+#### Option B: Multi-GPU Training (2D Regular Grid with Rollout)
+
+```bash
+python multi_gpu_launcher_rollout.py
+```
+
+#### Option C: 3D Training
+
+```bash
+python multi_gpu_launcher_3d.py
+```
+
+#### Option D: Unstructured Grid Training
+
+```bash
+python multi_gpu_launcher_U.py
+```
+
+#### Option E: DeepONet Training
+
+```bash
+python run_deeponetTrainer.py
+```
+
+**Configuration**: Before running, modify the following in the launcher file:
+
+- `gpus = [0, 1, 2]` - Set your available GPU IDs
+- `data_path` - Path to your downloaded dataset
+- `model_list` - Choose models to train (e.g., FNO, FFNO, Transolver)
+- Hyperparameters: `batch_size`, `width`, `n_layers`, `lr`, etc.
+
+### 4. Evaluation
+
+After training, evaluate the model performance:
+
+```bash
+python run_evaluator.py
+```
+
+**Configuration**: Edit `run_evaluator.py` to set:
 
 ```python
-from realm import REALMDataset, REALMTrainer
-from realm.models import FFNO
-
-# Load dataset
-dataset = REALMDataset(
-    case="IgnitHIT",
-    split="train",
-    preprocessing="standard"
-)
-
-# Initialize model
-model = FFNO(
-    in_channels=12,
-    out_channels=12,
-    modes=(16, 16),
-    width=128
-)
-
-# Train
-trainer = REALMTrainer(
-    model=model,
-    dataset=dataset,
-    rollout_steps=2,
-    max_lr=1e-3
-)
-trainer.fit()
+data_path = "./data/2dHIT"  # Path to your dataset
+experiment_name = "hit"      # Experiment name
 ```
 
-### Evaluation
+The evaluator will:
 
-```bash
-# Evaluate trained model
-python scripts/evaluate.py \
-    --case IgnitHIT \
-    --model FFNO \
-    --checkpoint path/to/checkpoint.pt \
-    --metrics all
-```
+- Extract best results from training runs
+- Evaluate model performance on test set
+- Generate performance metrics
+
+------
+
+### 📁 Tutorial Files Overview
+
+| File                            | Purpose                                               |
+| ------------------------------- | ----------------------------------------------------- |
+| `multi_gpu_launcher.py`         | Train models on 2D regular grid datasets              |
+| `multi_gpu_launcher_rollout.py` | Train models with rollout (autoregressive) on 2D data |
+| `multi_gpu_launcher_3d.py`      | Train models on 3D regular grid datasets              |
+| `multi_gpu_launcher_U.py`       | Train models on unstructured/irregular grid datasets  |
+| `run_deeponetTrainer.py`        | Train DeepONet models                                 |
+| `run_evaluator.py`              | Evaluate trained models and extract results           |
 
 ------
 
