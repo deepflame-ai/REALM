@@ -129,13 +129,13 @@ pip install huggingface-hub
 from huggingface_hub import snapshot_download
 
 snapshot_download(
-    repo_id="TianhaoWu/realm-bench-IgnitHIT",
+    repo_id="realm-bench/realm-bench-IgnitHIT",
     repo_type="dataset",
     local_dir="./data"
 )
 ```
 
-Or download manually from: https://huggingface.co/datasets/TianhaoWu/realm-bench-IgnitHIT
+Or download manually from: https://huggingface.co/realm-bench
 
 ### 3. Run Training
 
@@ -357,12 +357,6 @@ We welcome contributions! Please see our [contribution guidelines](https://claud
 - **Hao Sun**: haosun@ruc.edu.cn
 - **Project Website**: [realm-bench.org](https://realm-bench.org/)
 - **GitHub Issues**: [github.com/deepflame-ai/REALM/issues](https://github.com/deepflame-ai/REALM/issues)
-
-------
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](https://claude.ai/chat/LICENSE) file for details.
 
 ------
 
